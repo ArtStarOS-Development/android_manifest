@@ -82,16 +82,16 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="Q" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="Q" />
   <project path="development" name="android_development" remote="Q" />
-  <project path="device/artstar/sepolicy" name="android_device_artstar_sepolicy" remote="Q" />
+  <project path="device/asop/sepolicy" name="android_device_asop_sepolicy" remote="Q" />
   <project path="manifest" name="android_manifest" remote="Q" />
   <project path="platform_testing" name="android_platform_testing" remote="Q" />
-  <project path="vendor/artstar" name="android_vendor_artstar" remote="Q" />
+  <project path="vendor/asop" name="android_vendor_asop" remote="Q" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="Q" />
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="Q" />
 
   <!-- Hardware repos -->
-  <project path="hardware/artstar/interfaces" name="android_hardware_artstar_interfaces" remote="Q" />
+  <project path="hardware/asop/interfaces" name="android_hardware_asop_interfaces" remote="Q" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="Q" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="Q" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="Q" />
