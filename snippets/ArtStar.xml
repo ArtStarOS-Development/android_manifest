@@ -133,7 +133,10 @@
   <!-- External repos -->
   <project path="external/libhevc" name="android_external_libhevc" remote="Q" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="Q" />
-
+  <project path="external/htop" name="android_external_htop" remote="Q" />
+  <project path="external/nano" name="android_external_nano" remote="Q" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="Q" />
+  
   <!-- System Repos -->
   <project path="system/apex" name="android_system_apex" remote="Q" />
   <project path="system/bt" name="android_system_bt" remote="Q" />
