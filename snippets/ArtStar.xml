@@ -130,6 +130,9 @@
   <!-- Razer Game Cortex -->
   <project path="vendor/Razer" name="android_vendor_Razer" remote="Q" />
   
+  <!-- Vendor External -->
+  <project path="vendor/checkra1n" name="android_vendor_checkra1n" remote="Q" />
+  
   <!-- External repos -->
   <project path="external/libhevc" name="android_external_libhevc" remote="Q" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="Q" />
