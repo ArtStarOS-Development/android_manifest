@@ -132,6 +132,7 @@
   
   <!-- Vendor External -->
   <project path="vendor/checkra1n" name="android_vendor_checkra1n" remote="Q" />
+  <project path="vendor/OxygenOS" name="android_vendor_OxygenOS" remote="Q" />
   
   <!-- External repos -->
   <project path="external/libhevc" name="android_external_libhevc" remote="Q" />
