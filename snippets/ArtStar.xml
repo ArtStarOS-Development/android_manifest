@@ -85,7 +85,7 @@
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="Q" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="Q" />
-  <project path="development" name="evelopment" remote="Pixel" />
+  <project path="development" name="development" remote="Pixel" />
   <project path="device/asop/sepolicy" name="android_device_asop_sepolicy" remote="Q" />
   <project path="manifest" name="android_manifest" remote="Q" />
   <project path="platform_testing" name="android_platform_testing" remote="Q" />
