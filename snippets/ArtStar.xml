@@ -6,7 +6,7 @@
           revision="Q" />
   
   <remote name="Pixel"
-          frtch="https://github.com/PixelExperience"
+          fetch="https://github.com/PixelExperience"
           revision="ten" />
 
   <remote name="ArtStar-devices"
