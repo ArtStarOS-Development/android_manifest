@@ -126,6 +126,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="Q" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="Q" />
   <!-- <project path="packages/apps/Lawnchair" name="android_packages_apps_Lawnchair" remote="Q" /> -->
+  <project path="packages/apps/ArtStar" name="android_packages_apps_ArtStar" remote="Q" />
 
   <!-- Razer Game Cortex -->
   <project path="vendor/Razer" name="android_vendor_Razer" remote="Q" />
