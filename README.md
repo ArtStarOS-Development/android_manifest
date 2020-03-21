@@ -44,3 +44,20 @@ From root directory of Project, perform following commands in terminal :
 ```bash
       mka bacon -j$(nproc --all)
 ```
+
+## Notes
+Install And Set Default Python 3.6 vs Python 3.7
+```bash
+      sudo apt-get install python3.6
+```
+```bash
+      sudo apt-get install python3.7
+```
+```bash
+      sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+      sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+```
+```bash
+      sudo update-alternatives --config python3
+```
+      
