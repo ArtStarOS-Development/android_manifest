@@ -9,6 +9,10 @@
           fetch="https://github.com/PixelExperience"
           revision="ten" />
 
+<remote name="Q-Dev"
+          fetch="https://github.com/ArtStarOS-Development"
+          revision="Q" />
+
   <remote name="ArtStar-devices"
           fetch="https://github.com/ArtStar-Devices"
           revision="Q" />
@@ -61,7 +65,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="Q" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="Q" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="Q-Dev" />
   <project path="frameworks/native" name="android_frameworks_native" remote="Q" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Q" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="Q" />
@@ -87,12 +91,12 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="Q" />
   <project path="development" name="development" remote="Pixel" />
   <project path="device/asop/sepolicy" name="android_device_asop_sepolicy" remote="Q" />
-  <project path="manifest" name="android_manifest" remote="Q" />
+  <project path="manifest" name="android_manifest" remote="Q-Dev" />
   <project path="platform_testing" name="android_platform_testing" remote="Q" />
-  <project path="vendor/asop" name="android_vendor_asop" remote="Q" />
+  <project path="vendor/asop" name="android_vendor_asop" remote="Q-Dev" />
   <project path="vendor/Lawnchair" name="android_vendor_Lawnchair" remote="Q" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="Q" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="Q-Dev" />
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="Q" />
 
   <!-- Hardware repos -->
@@ -116,17 +120,17 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="Q" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Q" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="Q" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Q" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Q-Dev" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="Q" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="Q" />
   <!--  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="Q" /> -->
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Q" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Q" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="Q" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="Q" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="Q-Dev" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="Q" />
   <!-- <project path="packages/apps/Lawnchair" name="android_packages_apps_Lawnchair" remote="Q" /> -->
-  <project path="packages/apps/ArtStar" name="android_packages_apps_ArtStar" remote="Q" />
+  <project path="packages/apps/ArtStar" name="android_packages_apps_ArtStar" remote="Q-Dev" />
 
   <!-- Razer Game Cortex -->
   <project path="vendor/Razer" name="android_vendor_Razer" remote="Q" />
