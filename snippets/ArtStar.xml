@@ -64,9 +64,9 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="Pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="Q" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="Q-Dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="Q-Dev" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="Q" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="Q-Dev" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Q" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="Q" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Q" />
