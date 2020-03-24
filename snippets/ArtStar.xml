@@ -145,6 +145,7 @@
   <project path="external/htop" name="android_external_htop" remote="Q" />
   <project path="external/nano" name="android_external_nano" remote="Q" />
   <project path="external/libncurses" name="android_external_libncurses" remote="Q" />
+  <project path="external/libhevc" name="external_libhevc" remote="Pixel" />
   
   <!-- System Repos -->
   <project path="system/apex" name="android_system_apex" remote="Q" />
@@ -152,7 +153,7 @@
   <project path="system/extras" name="android_system_extras" remote="Q" />
   <project path="system/core" name="android_system_core" remote="Q" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="Q" />
-  <project path="system/keymaster" name="android_system_keymaster" remote="Q" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="Pixel" />
   <project path="system/netd" name="android_system_netd" remote="Q" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="Q" />
   <project path="system/vold" name="android_system_vold" remote="Q" />
