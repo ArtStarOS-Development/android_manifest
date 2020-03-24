@@ -94,7 +94,7 @@
   <project path="manifest" name="android_manifest" remote="Q-Dev" />
   <project path="platform_testing" name="android_platform_testing" remote="Q" />
   <project path="vendor/asop" name="android_vendor_asop" remote="Q-Dev" />
-  <project path="vendor/Lawnchair" name="android_vendor_Lawnchair" remote="Q" />
+  <!-- <project path="vendor/Lawnchair" name="android_vendor_Lawnchair" remote="Q" /> -->
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="Q-Dev" />
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="Q" />
