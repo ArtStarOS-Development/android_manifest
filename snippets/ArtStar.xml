@@ -9,7 +9,7 @@
           fetch="https://github.com/PixelExperience"
           revision="ten" />
 
-<remote name="Q-Dev"
+  <remote name="Q-Dev"
           fetch="https://github.com/ArtStarOS-Development"
           revision="Q" />
 
