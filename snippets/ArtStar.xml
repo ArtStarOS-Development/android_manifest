@@ -146,6 +146,7 @@
   <project path="external/nano" name="android_external_nano" remote="Q" />
   <project path="external/libncurses" name="android_external_libncurses" remote="Q" />
   <project path="external/libhevc" name="external_libhevc" remote="Pixel" />
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="Q-Dev" />
   
   <!-- System Repos -->
   <project path="system/apex" name="android_system_apex" remote="Q" />
